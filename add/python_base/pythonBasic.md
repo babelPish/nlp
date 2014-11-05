@@ -82,14 +82,6 @@
 결과 페이지
 json 으로 출력
 
-
-
-- 첨삭 등수
-디버깅.
-
-dir()
-함수 쓰는 법
-
 - 언어 기초
 백문이 불여 일타
 
@@ -103,7 +95,6 @@ dir()
 - ipython
 - 또는 ide tool 이클립스, *인텔리j
 
-
 help()
 dir()
 dir(__builtin__)
@@ -114,15 +105,13 @@ type()
 
 목차는 같다.
 
-- type. ex) stiring, int
+- type. ex) string, int
 - data structure. ex) list, tuple, dict
 - Control Flow ex) if, for , while ,
 - func
 - module
 - file i/o
 - stadard libray
-
-
 
 참고
 pycharm educational edition
