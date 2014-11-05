@@ -2,6 +2,24 @@
 
 파이썬 기초..
 
+요거 기준으로 합시다
+http://www.jetbrains.com/pycharm-educational/
+
+개발 방법론
+야매 개발
+정석은 어니지만 가격대비 성능비가 우수한..
+
+copy + v
+좋은 예제를 많이 보자
+코드는 볼 줄만 알면 된다.
+
+인터넷 안되면 개발을 못한다.
+구글, stack overlfow  , git
+
+읽는거 코드 고치는 것도 능력이다.
+
+
+
 숙제
 
 git hub는 제한적으로 쓰자.
