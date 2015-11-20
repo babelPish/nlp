@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <meta property="og:title" content="바벨피쉬" />
+    <meta property="og:title" content="바벨피쉬Py" />
     <meta property="og:description" content="사람의 언어, 기계의 언어 : 파이썬을 이용한 자연어처리" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://babelpish.github.io" />
-    <meta property="og:image" content="http://babelpish.github.io/img/logo.jpg" />
-    <title>Babelpish.github.io by babelPish</title>
+    <meta property="og:url" content="http://babelpish.github.io/nlp" />
+    <title>NLP by babelPish</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -19,67 +18,16 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- babel fish grow -->
-    <script>
-        var defaultExdays = 100;
-
-        function setCookie(cname,cvalue,exdays) {
-            var d = new Date();
-            d.setTime(d.getTime() + (exdays*24*60*60*1000));
-            var expires = "expires=" + d.toGMTString();
-            document.cookie = cname+"="+cvalue+"; "+expires;
-        }
-
-        function getCookie(cname) {
-            var name = cname + "=";
-            var ca = document.cookie.split(';');
-            for(var i=0; i<ca.length; i++) {
-                var c = ca[i];
-                while (c.charAt(0)==' ') c = c.substring(1);
-                if (c.indexOf(name) != -1) {
-                    return c.substring(name.length, c.length);
-                }
-            }
-            return "";
-        }
-
-        function checkCookie() {
-            var d = new Date();
-            var user=getCookie("part_two");
-            if (user != "") {
-
-                $("#age").text("바벨피쉬 : " + parseInt((d-user)/(24*3600*1000)) + " 살");
-                if(d - user > 30*24*60*60*1000){
-                    $("#babelfish").attr("src", "img/max.jpg");
-                }else{
-                    $("#babelfish").attr("src", "img/"+parseInt((d-user)/(24*3600*1000))+".jpg");
-                }
-                setCookie("part_two",user, defaultExdays);
-
-            }else {
-                //show dead fish
-                $("#babelfish").attr("src", "img/dead.jpg");
-                //dead or  first time
-                setCookie("part_two", d.getTime(), defaultExdays);
-            }
-        }
-
-    </script>
-    <!-- START google analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-56911203-1', 'auto');
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview', {
-            'page': location.pathname + location.search  + location.hash
-        });
-
-    </script>
-    <!-- END google analytics -->
+    
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WPV8GP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WPV8GP');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body onload="checkCookie()">
 <div class="wrapper">
@@ -96,15 +44,11 @@
 
         <p><img src="img/d141204.gif" alt="대문" class="img-responsive img-thumbnail"></p>
 
-        <p id="age">바벨피쉬 </p>
-
-        <p><img id="babelfish" src="img/0.jpg" alt="바벨피쉬" class="img-responsive img-thumbnail"></p>
-
     </header>
     <section>
         <h3>
             <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span
-                    class="octicon octicon-link"></span></a>Welcome to babel pish Pages.</h3>
+                    class="octicon octicon-link"></span></a>Welcome to babel pish's NLP Pages.</h3>
 
         <p> 사람의 언어, 기계의 언어 : 파이썬을 이용한 자연어처리 </p>
 
